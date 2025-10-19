@@ -30,3 +30,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+// build.gradle (Fragmento de dependencias)
+dependencies {
+	// ... otras dependencias
+	implementation 'mysql:mysql-connector-java' // O la versión específica: 'mysql:mysql-connector-j:8.0.33'
+	// ...
+}
